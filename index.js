@@ -22,7 +22,7 @@ module.exports = function(context, event) {
     context.res = {
         // status: 200, /* Defaults to 200 */
         body: {
-            text: "わぁい " + text + " あかり" + text + "大好き"
+            text: "わぁい " + text + " あかり" + text + "大好き!"
         }
     };
     context.bindings.outputDocument = {text};
